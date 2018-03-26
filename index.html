@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charater Generator</title>
+   <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="container" id="bodyContainer">
+          <div id="gameWrap" class="clearfix">
+                            <h1 id="mainHeading">  Character Alignment</h1>
+            <div class="row">
+                      <button id="goBtn" onclick="generateCharacter()">Generate Character</button>
+                            <h1 id="character"></h1>
+<!--                        <div id="charpic"></div> -->
+                            <h2 id="allignment"></h2>
+                            <h4 id="status"></h4> 
+                            <h4 id="house"></h4>
+                            <h3 id="title"></h3>
+            </div>
+            <div class="row">
+                <h1>“When you play a game of thrones you win or you die.” </h1>
+                <br>
+                <h1>Select two characters to fight to the Death</h1>
+                </div>
+            <div class="row">
+                <button id="goBtnR" onclick="generateCharacterR()">Generate Character</button>
+                            <h1 id="characterR"></h1>
+<!--                        <div id="charpic"></div> -->
+                            <h2 id="allignmentR"></h2>
+                            <h4 id="statusR"></h4> 
+                            <h4 id="houseR"></h4>
+                            <h3 id="titleR"></h3>
+            </div>
+            <div container="well">
+                    <h1>Have a Quote</h1>
+                    <button id="quoter" onclick="generateCharaterQuote()">Get one before winter comes</button>
+                
+                </div>
+          </div>
+          
+        </div>
+      </div>
+    <div class="container-fluid" id="footer">
+                            <h4>Share your results</h4>
+                      <button class="btn btn-primary" onclick="tweetIt()">Tweet it!</button>
+                      <button class="btn btn-primary" onclick="shareIt()">Share it!</button>
+     </div>
+    <script src="script.js"></script>
+  </body>
+</html>
